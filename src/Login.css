@@ -1,0 +1,96 @@
+html, body {
+    background-image: none;
+  }
+
+#logo-login{ 
+  height:4vw;
+  display:inline-block;
+  margin:0.5vw;
+}
+  
+.part{
+    display: inline-block;
+  }
+  
+  .signup{
+    border-right: 1px solid  black;
+    padding-right: 10vw;
+  }
+  
+  
+  .login{
+    float: right;
+  }
+  
+  
+  #login-header +  header
+  {
+    background-color: #EBC460;
+    font-size: 1vw;
+  }
+  #login-header +  header > img
+  {
+    background-color: #EBC460;
+    height: 3vw;
+  }
+  
+  .form-structor{
+    padding: 18vw 10vw ;
+    background-image: url("campain.png");
+    background-position: 0% -5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .form-title {
+    font-size: 3vw;
+  }
+  
+  .form-holder > input {
+    display: block;
+    margin-bottom: 20px ;
+    height: 3vw;
+    width: 30vw;
+    border-radius: 9px;
+    border: 1px black;
+  }
+  
+  .form-holder > input:focus-visible{
+    outline: none;
+  }
+  
+  .part > button{
+    height: 3vw;
+    width: 30vw;
+    border-radius: 25px;
+    border: 3px  black;
+    cursor: pointer;
+    
+  }
+  
+  .part > button{
+    height: 3vw;
+    width: 30vw;
+    border-radius: 25px;
+    border: 3px  black;
+    cursor: pointer;
+    
+  }
+  
+  .submit-btn:hover{
+    background-color: #EBC460;
+  }
+  
+  .error{
+    color:red;
+    font-size: 0.9vw;
+    display: block;
+  }
+
+  .password-error ~ input{
+    display: inline-block;
+  }
+
+  .eye{
+    display: inline-block;
+  }

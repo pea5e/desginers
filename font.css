@@ -1,0 +1,9 @@
+@font-face {
+font-family: "Font";
+src: local("GoldmanBold"),
+ url("./font.ttf") format("truetype");
+}
+
+*{
+  font-family :"Font"
+}
